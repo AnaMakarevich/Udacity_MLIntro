@@ -41,6 +41,7 @@ def parse_out_text(f):
         for token in tokens:
             words.append(stemmer.stem(token))
     words = ' '.join(words)
+
     return words
 
 
